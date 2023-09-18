@@ -1,4 +1,4 @@
-let chances = 10
+let chances = 5
 
 // sorteio valor
 let min = 1;
@@ -51,7 +51,7 @@ function menu() {
 // fim exibirMenu
 // reiniciar
 function reiniciar() {
-    chances = 10;
+    chances = 5;
     document.getElementById("chances").innerHTML = chances;
 
     let menu = document.getElementById('menu');
