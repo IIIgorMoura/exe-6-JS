@@ -40,6 +40,10 @@ function conferir() {
 function menu() {
     let jogo = document.getElementById('jogo');
     jogo.style.display = "none";
+
+    if (chances < 1) {
+        document.getElementById("resposta").innerHTML = "Você perdeu!";
+    }
 }
 // fim exibirMenu
 // reiniciar
@@ -55,6 +59,8 @@ function reiniciar() {
 
     let valor = Math.floor(Math.random() * (max - min + 1) + min);
     document.querySelector('#resultado').textContent = valor;
+
+
 }
 // fim reniciar
 // FIM MENU
