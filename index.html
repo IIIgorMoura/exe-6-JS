@@ -12,12 +12,14 @@
 </head>
 
 <body>
-    <section>
+    <!-- JOGO -->
+    <section id="jogo">
         <div class="container">
-            <h2 class="titulo">Chute um número</h2>
+            <h2 class="titulo">Adivinhação de números</h2>
 
             <!-- forms -->
             <div class="forms">
+                <h1>Insira um valor de 1 a 100</h1>
                 <input type="number" id="chute">
                 <button class="botao" id="conferir" onclick="conferir()">Verifique o valor</button>
             </div>
@@ -36,6 +38,16 @@
             <!-- fim chances -->
         </div>
     </section>
+    <!-- FIM JOGO -->
+
+    <!-- MENU -->
+    <section id="menu">
+        <button onclick="reiniciar()">
+            <i class="fa-solid fa-rotate-right fa-2x"></i>
+            <h1>Reiniciar</h1>
+        </button>
+    </section>
+    <!-- FIM MENU -->
 
     <script src="main.js"></script>
 </body>
