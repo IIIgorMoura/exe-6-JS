@@ -64,7 +64,7 @@ function reiniciar() {
     valor = Math.floor(Math.random() * (max - min + 1) + min);
     document.querySelector('#resultado').textContent = valor;
 
-    document.getElementById("correcao").innerHTML = "";
+    document.getElementById("correcao").innerHTML = "Insira um valor de 1 a 100";
 }
 // fim reniciar
 // FIM MENU
