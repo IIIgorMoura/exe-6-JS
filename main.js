@@ -17,12 +17,12 @@ function conferir() {
         chances--;
         document.getElementById("chances").innerHTML = chances;
 
-        document.getElementById("correcao").innerHTML = "O valor inserido é MENOR do que o valor sorteado";
+        document.getElementById("correcao").innerHTML = "Tente um valor MAIOR";
     } else if (valorInserido > valor) {
         chances--;
         document.getElementById("chances").innerHTML = chances;
 
-        document.getElementById("correcao").innerHTML = "O valor inserido é MAIOR do que o valor sorteado";
+        document.getElementById("correcao").innerHTML = "Tente um valor MENOR";
     }
 
     if (chances < 1) {
