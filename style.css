@@ -4,4 +4,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 750px;
+}
+
+/* background */
+#menu {
+    display: none;
+}
+
+.fundo {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 800px;
+    height: 600px;
+
+    background-color: aqua;
+}
+
+/* fim background */
 /* FIM BASE */

@@ -13,7 +13,7 @@
 
 <body>
     <!-- JOGO -->
-    <section id="jogo">
+    <section class="fundo" id="jogo">
         <div class="container">
             <h2 class="titulo">Adivinhação de números</h2>
 
@@ -23,12 +23,9 @@
                 <input type="number" id="chute">
                 <button class="botao" id="conferir" onclick="conferir()">Verifique o valor</button>
             </div>
+
+            <div id="correcao"></div>
             <!-- fim forms -->
-
-            <!-- TIRAR DEPOIS -->
-            <div class="txt" id="resultado"></div>
-
-
 
             <!-- chances -->
             <i class="fas fa-heart fa-4x"></i>
@@ -39,15 +36,18 @@
     <!-- FIM JOGO -->
 
     <!-- MENU -->
-    <section id="menu">
+    <section class="fundo" id="menu">
         <!-- resposta -->
         <div id="resposta">resposta</div>
+        <h1 id="resultado">A resposta era: </h1>
         <!-- fim resposta -->
 
         <button onclick="reiniciar()">
             <i class="fa-solid fa-rotate-right fa-2x"></i>
             <h1>Reiniciar</h1>
         </button>
+
+
     </section>
     <!-- FIM MENU -->
 
